@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"adeee82fda0ac588","type":"text","text":"variable = valor inicial\nwhile ( expresion logica){instruciones \n/modificacion de variable}","x":-211,"y":-47,"width":249,"height":125,"color":"5"},
+		{"id":"9f13f65cfae8c32f","type":"text","text":"la expresion logica se refiere a la condicion a cumplir por ejemplo que la variable contador llegue a ser igual que 10","x":-429,"y":205,"width":275,"height":143},
+		{"id":"f3b2cf8f52346ecf","type":"text","text":"modificacion de variable se refiere a que se cambie la variable en caso de no cambiarla se crearia un bucle infito por ejemplo contador ++ o contador +=2 en estos casos aumentaran de 1 en 1 cada ciclo o de 2 en 2","x":33,"y":209,"width":329,"height":178},
+		{"id":"1022a0cc42a039e9","type":"text","text":"ejemplo \nx=5\nwhile (x= = 20){\ncadena= cadena +x \nx++\n}\n","x":-212,"y":-309,"width":306,"height":159},
+		{"id":"7bfb35bddd29a72e","type":"text","text":"primero inicializamos la variable en 5 (x)","x":-657,"y":-261,"width":250,"height":60},
+		{"id":"d008c0cec177cbb4","type":"text","text":"luego le decimos a el while que siga el ciclo hasta que x sea igual a 20","x":328,"y":-325,"width":223,"height":122},
+		{"id":"6212fb1f3068f4f3","type":"text","text":"luego hacemos que la cadena sea igual a la cadena guardada anteriormente pero se le agregue el valor nuevo de la x\ny luego se aumente en 1 a el valor de x","x":-183,"y":-611,"width":260,"height":224}
+	],
+	"edges":[
+		{"id":"4d863ec3ae602c27","fromNode":"adeee82fda0ac588","fromSide":"bottom","toNode":"9f13f65cfae8c32f","toSide":"top"},
+		{"id":"2306daa13890ed10","fromNode":"adeee82fda0ac588","fromSide":"bottom","toNode":"f3b2cf8f52346ecf","toSide":"top"},
+		{"id":"9045576df51743b6","fromNode":"adeee82fda0ac588","fromSide":"top","toNode":"1022a0cc42a039e9","toSide":"bottom"},
+		{"id":"75fb2b2c811dc440","fromNode":"1022a0cc42a039e9","fromSide":"left","toNode":"7bfb35bddd29a72e","toSide":"right"},
+		{"id":"8b3e078320b70f69","fromNode":"1022a0cc42a039e9","fromSide":"right","toNode":"d008c0cec177cbb4","toSide":"left"},
+		{"id":"d52598e8d5afa2c1","fromNode":"1022a0cc42a039e9","fromSide":"top","toNode":"6212fb1f3068f4f3","toSide":"bottom"}
+	]
+}

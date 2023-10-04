@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"9f92fc1e3135a902","type":"text","text":"for (cont=1;cont<=10;cont++)\ninstruciones;","x":-207,"y":-51,"width":281,"height":62,"color":"5"},
+		{"id":"17269b7cb6510023","type":"text","text":"cont es la variable que le hacemos contar y la inicialisamos en 1","x":-358,"y":133,"width":268,"height":94},
+		{"id":"0edfb7a907ab1dfd","type":"text","text":"la segunda parte (cont<=10) dice que hara el ciclo hasta que el cont tenga un valor igual o menor que 10","x":27,"y":128,"width":274,"height":114},
+		{"id":"805c9a5f8cf4c1dc","type":"text","text":"cont++ se refiere a que cada que hara un ciclo sumara 1 a el valor del cont tambien se puede hacer que se vaya de dos en 2 como por ejemplo cont+=2","x":-194,"y":-329,"width":268,"height":169}
+	],
+	"edges":[
+		{"id":"7f2a4fdcebb7ec8d","fromNode":"9f92fc1e3135a902","fromSide":"bottom","toNode":"17269b7cb6510023","toSide":"top"},
+		{"id":"40934afa1d104760","fromNode":"9f92fc1e3135a902","fromSide":"bottom","toNode":"0edfb7a907ab1dfd","toSide":"top"},
+		{"id":"694cd9c50300a8a9","fromNode":"9f92fc1e3135a902","fromSide":"top","toNode":"805c9a5f8cf4c1dc","toSide":"bottom"}
+	]
+}

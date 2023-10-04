@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"3a11e89782e7bf51","type":"text","text":"var =valor inicial;\ndo\n{ instruccion(es);\n_modificarvariable_\n}while ( expresionlogica);","x":-152,"y":-41,"width":255,"height":130,"color":"5"},
+		{"id":"a769b41a111269ac","type":"text","text":"primero se le da un valor inicial a la vari","x":-151,"y":217,"width":250,"height":60},
+		{"id":"d59d34ea10b13f20","type":"text","text":"la diferencia que con el while se diferencia que este primero hace la instruccion luego ya verifica la condicion","x":320,"y":-4,"width":276,"height":130},
+		{"id":"9bf3e28fc6f51f03","type":"text","text":"luego de hacer la instruccion modifica la vairable var++ por ejemplo","x":-656,"y":-66,"width":242,"height":118},
+		{"id":"a940ef8ea9a4b8a3","type":"text","text":"luego ya verifica la expresion logica y en caso de no cumplirla vuelve a el ciclo","x":-656,"y":231,"width":250,"height":136}
+	],
+	"edges":[
+		{"id":"8e0973ed20ccbbdb","fromNode":"3a11e89782e7bf51","fromSide":"bottom","toNode":"a769b41a111269ac","toSide":"top"},
+		{"id":"817bc33beb853c65","fromNode":"3a11e89782e7bf51","fromSide":"right","toNode":"d59d34ea10b13f20","toSide":"left"},
+		{"id":"240eb6e057a5a2f6","fromNode":"3a11e89782e7bf51","fromSide":"left","toNode":"9bf3e28fc6f51f03","toSide":"right","label":"hace la instruccion\nejemplo\nlblsalida.setText(x)"},
+		{"id":"e8a6081ebb48e4d6","fromNode":"9bf3e28fc6f51f03","fromSide":"bottom","toNode":"a940ef8ea9a4b8a3","toSide":"top"}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"dc944d5d8da6cb10","type":"text","text":"if (condicion){\ninstrucciones;\n}else {\ninstrucciones\n}","x":-79,"y":4,"width":291,"height":154,"color":"5"},
+		{"id":"7041f44b7ef347e2","type":"text","text":"el if de condicion doble o if else se utiliza cuando tienes una condicion para cumplir y quieres que el programa haga algo en caso de que la instruccion no se cumpla envez de simplemente saltarse el codigo","x":-56,"y":365,"width":268,"height":186},
+		{"id":"f813d7db8012899b","x":544,"y":59,"width":250,"height":60,"type":"text","text":"ejemplos\n"},
+		{"id":"2468330c4512a535","x":957,"y":56,"width":355,"height":209,"type":"text","text":"temperatura = 30;\nif (temperatura > 25){\nSystem.out.println(\"la temperatura es alta\"); \n} else {\nSystem.out.println(\"la temperatura es baja\"); }"},
+		{"id":"d265f034fb3ab21e","x":463,"y":-238,"width":413,"height":136,"type":"text","text":"temperatura = 20;\nif (temperatura > 25){\nSystem.out.println(\"la temperatura es alta\"); \n} else {\nSystem.out.println(\"la temperatura es baja\"); }"},
+		{"id":"46dca4c6ba1d439d","x":1161,"y":-348,"width":267,"height":178,"type":"text","text":"en este caso la condicion principal no se cumple por lo cual lo manda a el else y segun la instruccion dada se imprimira en la consola \"la temperatura es baja\""},
+		{"id":"cdee7dcecfdbf947","x":1015,"y":448,"width":331,"height":170,"type":"text","text":"en este caso la condicion principal  se cumple por lo cual se hace directamente la instruccion principal y se saltea el else en este caso la consola imprimira \" la temperatura es alta\""}
+	],
+	"edges":[
+		{"id":"c2beb33f22de5d0f","fromNode":"dc944d5d8da6cb10","fromSide":"bottom","toNode":"7041f44b7ef347e2","toSide":"top"},
+		{"id":"4c834f12dc11b85f","fromNode":"dc944d5d8da6cb10","fromSide":"right","toNode":"f813d7db8012899b","toSide":"left"},
+		{"id":"fa693520d13a5171","fromNode":"f813d7db8012899b","fromSide":"right","toNode":"2468330c4512a535","toSide":"left"},
+		{"id":"698264c64dffc590","fromNode":"f813d7db8012899b","fromSide":"top","toNode":"d265f034fb3ab21e","toSide":"bottom"},
+		{"id":"a9bbef56bda0d2a4","fromNode":"d265f034fb3ab21e","fromSide":"right","toNode":"46dca4c6ba1d439d","toSide":"left"},
+		{"id":"de9e78884454d23c","fromNode":"2468330c4512a535","fromSide":"bottom","toNode":"cdee7dcecfdbf947","toSide":"top"}
+	]
+}

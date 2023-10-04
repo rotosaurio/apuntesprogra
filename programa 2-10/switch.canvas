@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"47438c500d32b57b","x":-65,"y":-31,"width":299,"height":385,"color":"5","type":"text","text":"switch (variable a analizar){\ncase valor1:\ninstruccion\nbreak;\ncase valor2:\ninstruccion\nbreak;\ncase valor3:\ninstruccion\nbreak;\ndefault \ninstruccion\nbreak;\n}\n"},
+		{"id":"8d2f13d4126dc754","x":-711,"y":72,"width":269,"height":156,"type":"text","text":"la variable a analizar se refiere a la variable de la cual obtendra un valor que comparara con los distintos casos "},
+		{"id":"9e579eb30d856a35","x":-56,"y":-365,"width":290,"height":119,"type":"text","text":"el break se utiliza para que el programa sepa cuando terminar la instruccion y no entre en un bucle"},
+		{"id":"0d430a4b5072d07b","x":-45,"y":669,"width":250,"height":60,"type":"text","text":"case valor se refiere a "},
+		{"id":"bca2a9a558b233ae","x":-242,"y":891,"width":250,"height":60,"type":"text","text":"case se refiere a el caso a analizar"},
+		{"id":"0ab296ed26481217","x":165,"y":886,"width":258,"height":129,"type":"text","text":"y valor se refiere a el valor que va a analizar apartir de la variable que se puso en el switch"},
+		{"id":"42b7ed0c6a6c2cce","x":433,"y":87,"width":250,"height":60,"type":"text","text":"ejemplo"},
+		{"id":"12b8a48df4d33b7d","x":-722,"y":482,"width":280,"height":132,"type":"text","text":"el case default se refiere a lo que va a hacer el programa en caso de que no se cumpla ninguno de los casos "},
+		{"id":"0294f3590420cdef","x":841,"y":88,"width":291,"height":641,"type":"text","text":"switch (dia) { \ncase 1: System.out.println(\"Domingo\"); break; \ncase 2: System.out.println(\"Lunes\"); break;\ncase 3: System.out.println(\"Martes\"); break;\ncase 4: System.out.println(\"Miercoles\"); break;\ncase 5: System.out.println(\"Jueves\"); break;\ncase 6: System.out.println(\"Viernes\"); break; \ncase 7: System.out.println(\"Sabado\"); break; \ndefault :\nSystem.out.println(\"no es un dia de la semana\"); \nbreak;\n}"},
+		{"id":"6f866591984d6f53","x":1278,"y":386,"width":250,"height":283,"type":"text","text":"en este ejemplo en caso de que la variable \"dia \" tenga un valor de el 1 a el 7 se va a imprimir un dia de la semana en caso de que sea mas de  7 o menos de 1 se imprimira nuestro valor default osea se imprimira \" este no es ningun dia de la semana\""},
+		{"id":"223b6bfd1ee05de8","x":433,"y":-590,"width":401,"height":423,"type":"text","text":"switch (dia) { \ncase 2:\ncase 3:\ncase 4:\ncase 5: \ncase 6: \nSystem.out.println(\"Dia laboral\");\nbreak; \ncase 1:\ncase 7:\nSystem.out.println(\"Fin de semana\"); \nbreak; \ndefault: \nSystem.out.println(\"La semana solo tiene 7 dias\"); \nbreak; }"},
+		{"id":"361a85b7a9d1e956","x":987,"y":-499,"width":250,"height":134,"type":"text","text":"esta es otra forma de usar el switch cuando vas a hacer que muchos casos tengan una sola instruccion "},
+		{"id":"63b2afb493b8fa69","x":491,"y":-989,"width":286,"height":254,"type":"text","text":"en este ejemplo en caso de que imprimas un valor del 2 a el 6 te dira que es dia laboral pero en caso de que imprimas el 1 o el 7 te dira que es finde semana y si no es ninguno de esos valores te dira que la semana solo tiene 7 dias"}
+	],
+	"edges":[
+		{"id":"af222dfe80418ad0","fromNode":"47438c500d32b57b","fromSide":"left","toNode":"8d2f13d4126dc754","toSide":"right"},
+		{"id":"0e09afb1c91c76e1","fromNode":"47438c500d32b57b","fromSide":"top","toNode":"9e579eb30d856a35","toSide":"bottom"},
+		{"id":"6cbb54d8ba424c17","fromNode":"47438c500d32b57b","fromSide":"bottom","toNode":"0d430a4b5072d07b","toSide":"top"},
+		{"id":"bba4b740fef82605","fromNode":"0d430a4b5072d07b","fromSide":"bottom","toNode":"bca2a9a558b233ae","toSide":"top"},
+		{"id":"e9c7e821171abe6d","fromNode":"0d430a4b5072d07b","fromSide":"bottom","toNode":"0ab296ed26481217","toSide":"top"},
+		{"id":"60bedfdba58fa2a6","fromNode":"47438c500d32b57b","fromSide":"right","toNode":"42b7ed0c6a6c2cce","toSide":"left"},
+		{"id":"f996907431e58afa","fromNode":"47438c500d32b57b","fromSide":"bottom","toNode":"12b8a48df4d33b7d","toSide":"top"},
+		{"id":"43b2e8a247fe899b","fromNode":"42b7ed0c6a6c2cce","fromSide":"right","toNode":"0294f3590420cdef","toSide":"left"},
+		{"id":"6ebda310a0c7104f","fromNode":"0294f3590420cdef","fromSide":"right","toNode":"6f866591984d6f53","toSide":"left"},
+		{"id":"f6951ac771954b14","fromNode":"42b7ed0c6a6c2cce","fromSide":"top","toNode":"223b6bfd1ee05de8","toSide":"bottom"},
+		{"id":"67a3cf22e4839dd0","fromNode":"223b6bfd1ee05de8","fromSide":"right","toNode":"361a85b7a9d1e956","toSide":"left"},
+		{"id":"c2a1663c1380f9df","fromNode":"223b6bfd1ee05de8","fromSide":"top","toNode":"63b2afb493b8fa69","toSide":"bottom"}
+	]
+}

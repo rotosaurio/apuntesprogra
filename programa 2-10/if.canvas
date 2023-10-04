@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"5f5eafd2ee5d43c4","type":"text","text":"if (condicion){\ninstruccion ;\n}","x":-64,"y":-57,"width":274,"height":99,"color":"5"},
+		{"id":"8ce4abec918adf80","type":"text","text":"if sencillo es cuando solo hay una opcion para escoger en caso de que no se cumpla la condicion simplemente salta a la siguiente parte del codigo","x":-283,"y":203,"width":281,"height":148},
+		{"id":"2d70a9abbf98f6b6","type":"text","text":"ejemplo\n","x":431,"y":-43,"width":136,"height":52},
+		{"id":"c66bfbba293cccd4","type":"text","text":"var = 6;\nif (var<5){\nsystem.out.println(\"es menor que 5\")\n}","x":374,"y":137,"width":264,"height":146},
+		{"id":"39a60c8202f58f45","type":"text","text":"en este caso no se cumple la condicion por lo cal solo salta el if ","x":801,"y":177,"width":250,"height":60},
+		{"id":"37d75ddced10469e","type":"text","text":"var = 4;\nif (var<5){\nsystem.out.println(\"es menor que 5\")\n}","x":374,"y":-260,"width":261,"height":141},
+		{"id":"9ecb471dfa70b115","type":"text","text":"en este caso si se cumple la condicion por lo cual segun la instruccion dada  se imprimira \" es menor que 5 \" en la consola","x":895,"y":-226,"width":247,"height":169}
+	],
+	"edges":[
+		{"id":"7b9733181c98a791","fromNode":"5f5eafd2ee5d43c4","fromSide":"bottom","toNode":"8ce4abec918adf80","toSide":"top"},
+		{"id":"5af10502cc0df30e","fromNode":"5f5eafd2ee5d43c4","fromSide":"right","toNode":"2d70a9abbf98f6b6","toSide":"left"},
+		{"id":"191fb6490d28a6b6","fromNode":"2d70a9abbf98f6b6","fromSide":"bottom","toNode":"c66bfbba293cccd4","toSide":"top"},
+		{"id":"5964855350360ba0","fromNode":"c66bfbba293cccd4","fromSide":"right","toNode":"39a60c8202f58f45","toSide":"left"},
+		{"id":"c9e7ff264b5db9df","fromNode":"2d70a9abbf98f6b6","fromSide":"top","toNode":"37d75ddced10469e","toSide":"bottom"},
+		{"id":"e7b645f0c5d511db","fromNode":"37d75ddced10469e","fromSide":"right","toNode":"9ecb471dfa70b115","toSide":"left"}
+	]
+}
