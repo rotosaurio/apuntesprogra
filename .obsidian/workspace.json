@@ -4,25 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "7eef9585624d3c15",
+        "id": "936cb5313fc51def",
         "type": "tabs",
         "children": [
           {
-            "id": "18fb18d06b63450a",
+            "id": "3c600fb2dd11e2f3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "dd02de44c7789616",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "programa 3-10/sintaxis do while.canvas",
-                "viewState": {
-                  "x": -30,
-                  "y": 108.86338506711412,
-                  "zoom": -0.20835385022039177
-                }
+                "file": "prueba.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programa 3-10/sintaxis do while.canvas",
+                "file": "prueba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programa 3-10/sintaxis do while.canvas",
+                "file": "prueba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programa 3-10/sintaxis do while.canvas"
+                "file": "prueba.md"
               }
             }
           }
@@ -149,11 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18fb18d06b63450a",
+  "active": "dd02de44c7789616",
   "lastOpenFiles": [
+    "prueba.md",
+    "programa 3-10/sintaxis do while.canvas",
     "programa 3-10/sintaxis for.canvas",
     "programa 3-10/sintaxis while.canvas",
-    "programa 3-10/sintaxis do while.canvas",
     "programa 2-10/if.canvas",
     "programa 2-10/if else.canvas",
     "programa 2-10/switch.canvas",
