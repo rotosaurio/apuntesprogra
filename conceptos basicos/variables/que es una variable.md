@@ -1,0 +1,1 @@
+una variable es el espacio de memoria que se guarda la computadora para un futuro uso para poder almacenar datos.

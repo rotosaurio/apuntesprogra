@@ -1,0 +1,3 @@
+java with ant estaba basada en xml para definir la construccion de proyectos para ser mas  " sencillo de entender " para gente nueva aunque para programas mas complejos llega a ser mas complicado entender como funciona 
+java with ant permite configuraciones manuales para poder aprender como funciona todo el programa
+tiene una amplia perzonalizacion puedes personalizar completamente y sirve para tareas mas especificas

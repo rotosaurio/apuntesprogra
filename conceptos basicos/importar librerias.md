@@ -1,0 +1,2 @@
+si alguna vez has visto arriba de tu codigo la palabra import por ejemplo impor java.util.scanner
+se refiere a que importara la libreria necesaria para que esa parte del programa funcione las librerias son partes de codigo precreadas por otros programadores para poder utilizar partes de codigo mas sencillas sin necesidad de crear todo desde 0  hay muchas librerias precreadas siempre busca si existe alguna que te pueda ayudar en tu problema

@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "936cb5313fc51def",
+        "id": "1e15872e21c7a871",
         "type": "tabs",
         "children": [
           {
-            "id": "3c600fb2dd11e2f3",
+            "id": "cdd457c91abfeb25",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "ciclos/sintaxis while.canvas",
+                "viewState": {
+                  "x": -53,
+                  "y": -112,
+                  "zoom": -0.5729225230267997
+                }
+              }
             }
           }
         ]
@@ -34,7 +41,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ciclos/sintaxis while.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ciclos/sintaxis while.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ciclos/sintaxis while.canvas"
+              }
             }
           }
         ]
@@ -138,46 +149,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c600fb2dd11e2f3",
+  "active": "cdd457c91abfeb25",
   "lastOpenFiles": [
+    "interfaz grafica/metodos basicos/metodos.md",
+    "interfaz grafica/componentes.md",
+    "interfaz grafica/metodos basicos",
+    "condicionales/if else.canvas",
+    "interfaz grafica/awt.md",
+    "interfaz grafica/swing.md",
+    "Untitled.md",
+    "interfaz grafica",
+    "condicionales/if.canvas",
+    "programacion principios/crear un proyecto/java with maven.md",
+    "ciclos/sintaxis for.canvas",
+    "conceptos basicos/variables/declarar variables.md",
+    "conceptos basicos/variables/tipos de datos.md",
+    "ciclos/instruciones ciclicas.md",
+    "ciclos/do while - hacer mientras.md",
+    "ciclos/sintaxis do while.canvas",
+    "conceptos basicos/variables/que es una variable.md",
+    "conceptos basicos/variables/variables.md",
+    "conceptos basicos/operadores condicionales.md",
+    "conceptos basicos/importar librerias.md",
+    "conceptos basicos/que es y como funciona.md",
+    "conceptos basicos/operadores ternarios.md",
+    "programa 3-10/Untitled.md",
+    "conceptos basicos/variables",
+    "programacion principios/crear un proyecto/crear un proyecto.md",
+    "programacion principios/variables.md",
+    "conceptos basicos",
+    "programacion principios/crear un proyecto/java with ant.md",
+    "programacion principios/crear un proyecto",
+    "programacion principios",
+    "condicionales/switch.canvas",
+    "condicionales/condicionales.md",
     "prueba.md",
-    "programa 3-10/sintaxis do while.canvas",
-    "programa 3-10/sintaxis for.canvas",
-    "programa 3-10/sintaxis while.canvas",
-    "programa 2-10/if.canvas",
-    "programa 2-10/if else.canvas",
-    "programa 2-10/switch.canvas",
-    "programa 3-10/instruciones ciclicas.md",
-    "programa 3-10/for - para.md",
-    "programa 3-10/do while - hacer mientras.md",
-    "programa 2-10/condicionales.md",
+    "ciclos/sintaxis while.canvas",
+    "ciclos/for - para.md",
     "programa 2-10/Untitled.md",
-    "programa 2-10",
+    "condicionales",
     "2023-10-03.md",
-    "programa 3-10/while - mientras.md",
-    "mates discretas 3-10/premisa mayor.md",
-    "mates discretas 3-10/silogismo.md",
-    "mates discretas 3-10/premisa menor.md",
-    "mates discretas 3-10/tarea.md",
-    "mates discreta 2-10/simples o atomicos.md",
-    "mates discreta 2-10/negacion.md",
-    "mates discreta 2-10/mate discretas clase 02 11.md",
-    "mates discreta 2-10/logica.md",
-    "mates discreta 2-10/logica elemental.md",
-    "mates discreta 2-10/disyuncion.md",
-    "mates discreta 2-10/enunciados.md",
-    "mates discreta 2-10/conjucion.md",
-    "mates discreta 2-10/conectores.md",
-    "mates discreta 2-10/condicional o implicador.md",
-    "mates discreta 2-10/compuestos o moleculares.md",
-    "mates discreta 2-10/bicondicional.md",
+    "ciclos/while - mientras.md",
     "mates discreta 2-10",
-    "matediscreta-02-10/simples o atomicos.md",
-    "matediscreta-02-10/negacion.md",
     "matediscreta-02-10",
     "programa 4-10/Untitled",
-    "Untitled.canvas",
-    "mates discretas 3-10",
-    "programa 3-10"
+    "Untitled.canvas"
   ]
 }
